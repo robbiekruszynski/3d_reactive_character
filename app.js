@@ -67,7 +67,7 @@
           if (o.isMesh) {
             o.castShadow = true;
             o.receiveShadow = true;
-            o.material = stacy_mtl;
+            // o.material = stacy_mtl;
           }
           // Reference the neck and waist bones
           if (o.isBone && o.name === "mixamorigNeck") {
