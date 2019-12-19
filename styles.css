@@ -34,7 +34,32 @@ body {
   height: 100%;
   display: block;
 }
+.buttons {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+  width: 100%;
+  z-index: 1;
+}
 
+button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 7%;
+}
+
+button:hover {
+  color: white;
+  background-image: url("starFall.gif");
+  background-size: cover;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 7%;
+  /* box-shadow:black; */
+}
 .loading {
   position: fixed;
   z-index: 50;
